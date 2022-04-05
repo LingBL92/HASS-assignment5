@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+  <html>
+
+  <style>
+    .para {
+      <!border: 1px solid black;>
+      margin: auto;
+      padding: 0px 30px;
+      text-align: left;
+    }
+
+    .intro {
+      overflow-wrap: break-word;
+      padding: 10px 200px;
+      text-align: center;
+    }
+
+    .img {
+      display:block;
+      margin-left: auto;
+      margin-right: auto;
+      width: 75%;
+      padding: 30px 20px
+    }
+
+  table {
+      margin-left: auto;
+      margin-right: auto;
+      border-collapse: collapse;
+      border: 1px solid rgb(100, 100, 100);
+      letter-spacing: 1px;
+      font-size: 17px;
+      text-align: left;
+      width: 80%;
+      padding: 50px 0px;
+    }
+
+  td,th {
+      border: 1px solid rgb(100, 100, 100);
+      padding: 10px 10px;
+  }
+
+  td {
+    font-size: 15px;
+    text-align: left;
+  }
+
+  </style>
+
+  <head>
+    <title> Critique of Viz examples </title>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <link rel="stylesheet" href="mystyle.css">
+  </head>
+
+  <body id="body">
+    <h1 style="text-align:center; color:#111111;font-size:30px;"> Critique of viz examples <br></h1>
+    <div align="center" class="main" id="main"></div>
+    <p style="text-align:center; font-size:20px;">
+      <br>Visualisation of <a href="https://informationisbeautiful.net/visualizations/how-to-get-the-world-to-netzero-by-2050/">net carbon zero.</a>
+    </p>
+    <p class="intro">
+    <i>Net zero carbon describes strategies to first reduce and build towards zero carbon. Information about carbon emissions is presented in various formats and they come together to tell a story about getting the world to net carbon zero.
+    </i></p>
+  </body>
+
+  <img src="net zero carbon part 2.png" alt="net1" class="img"></img>
+  <p class="intro">
+  <i>Above: Original net carbon zero viz.</p>
+  <img src="charts.png" alt="net1a" class="img"></img>
+  <p class="intro">
+  <i>Above: Improved stacked bar chart.</p>
+
+  <table>
+    <tr>
+      <th width=20%> Story flow </th>
+      <th width=40%> Critique </th>
+      <th width=40%> Improvement </th>
+    </tr>
+
+    <tr>
+      <td>
+        <b> Carbon emissions</b>
+        <br>This part aims to show the main contributors of carbon emissions and their respective smaller contributors.
+      </td>
+      <td>
+        <b>Clear quantitative values</b><br>
+        Data on percentages and contributors are clear and consistent across all different fields.
+        <br><b>Colour works</b>
+        <br>In this case, the colours work well in separating the main contributors. Perhaps colours could be chosen to have more contrast.
+        <br><b>Bad display of relative percentages</b>
+        <br>Using rectangle sizes is really bad in showing relative differences. It is difficult to read size on 2 dimensions and we need to constantly refer to the numbers.
+      </td>
+      <td>
+        <br><b>Stacked bar chart</b>
+        <br>Stacked bar charts are better for visualising the data.  The smaller contributors are coloured using different hues of the main colour groupings.
+        <br><b>Clearer visual sizing</b>
+        <br>At one glance, the relative contributions by each category is clearer. The relative sizing is obvious and the relative contributions from smaller groupings can also be visually inspected.
+      </td>
+    </tr>
+  </table>
+
+    <p class="intro">
+    <i><br>Assignment 2 - Ling Ban Liang
+    </i></p>
